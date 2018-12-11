@@ -57,6 +57,7 @@ namespace Game2
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Background = Content.Load<Texture2D>("GameBackground");
             Bullet = Content.Load<Texture2D>("Bullet");
+
             Player = Content.Load<Texture2D>("PlayerShip");
             PlayerPos = new Vector2(600, 800);
             // TODO: use this.Content to load your game content here
